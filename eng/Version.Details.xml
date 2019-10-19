@@ -2,9 +2,9 @@
 <Dependencies>
   <ProductDependencies>
     <!-- Winforms / WPF -->
-    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha1.19507.5">
-      <Uri>https://github.com/dotnet/core-setup</Uri>
-      <Sha>536ee53cd1a0cc677e700387305538542aeeb2b8</Sha>
+    <Dependency Name="Microsoft.WindowsDesktop.App" Version="5.0.0-alpha1.19518.4">
+      <Uri>https://github.com/dotnet/windowsdesktop</Uri>
+      <Sha>9c77fdf3aad3ed50af9d223575c1f836bb8e4d9f</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NETCore.App" Version="5.0.0-alpha1.19518.11">
       <Uri>https://github.com/dotnet/core-setup</Uri>
@@ -38,30 +38,30 @@
       <Uri>https://github.com/aspnet/AspNetCore</Uri>
       <Sha>29ad3f2b8a42a29b26e72e98c22cc913f93b17b0</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="5.0.0-alpha1.19464.1">
+    <Dependency Name="Microsoft.DotNet.Common.ItemTemplates" Version="5.0.0-alpha1.19516.1">
       <Uri>https://github.com/dotnet/templating</Uri>
-      <Sha>1e229a8cb18641047a3ec19e1e78251045c56582</Sha>
+      <Sha>6f180514b4aefc006d50c07c947da61e0ac2ed4c</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.Dotnet.Toolset.Internal" Version="5.0.100-alpha1.19412.1">
+    <Dependency Name="Microsoft.Dotnet.Toolset.Internal" Version="5.0.100-alpha1.19518.5">
       <Uri>https://github.com/dotnet/toolset</Uri>
-      <Sha>0228e76e7114adc99dcb516e9638412d4c00db26</Sha>
+      <Sha>32bb8ea97ad82adf82af92cce78c909f13f853f7</Sha>
     </Dependency>
     <Dependency Name="Microsoft.NET.Sdk" Version="5.0.100-alpha1.19501.2">
       <Uri>https://github.com/dotnet/sdk</Uri>
       <Sha>419501cb5731805c7e49bae276a2938e7c1844de</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="5.0.100-alpha1.19507.1">
-      <Uri>https://github.com/dotnet/cli</Uri>
-      <Sha>d282ff20f28166f0e35c63929cd2124c7ba09f6a</Sha>
+    <Dependency Name="Microsoft.DotNet.MSBuildSdkResolver" Version="5.0.100-alpha1.19518.5">
+      <Uri>https://github.com/dotnet/toolset</Uri>
+      <Sha>32bb8ea97ad82adf82af92cce78c909f13f853f7</Sha>
     </Dependency>
-    <!-- For coherency purposes, these versions should be gated by the versions of winforms and wpf routed via core setup -->
-    <Dependency Name="Microsoft.Dotnet.WinForms.ProjectTemplates" Version="5.0.0-alpha1.19503.1" CoherentParentDependency="Microsoft.WindowsDesktop.App">
+    <!-- For coherency purposes, these versions should be gated by the versions of winforms and wpf routed via windowsdesktop -->
+    <Dependency Name="Microsoft.Dotnet.WinForms.ProjectTemplates" Version="5.0.0-alpha1.19462.11" CoherentParentDependency="Microsoft.WindowsDesktop.App">
       <Uri>https://github.com/dotnet/winforms</Uri>
-      <Sha>cf14d40dae262b353c5e2aa6cf0d35507dc279dc</Sha>
+      <Sha>aa251536c8ae637e95faf529480e8020d69aa361</Sha>
     </Dependency>
-    <Dependency Name="Microsoft.DotNet.Wpf.ProjectTemplates" Version="5.0.0-alpha1.19504.4" CoherentParentDependency="Microsoft.WindowsDesktop.App">
+    <Dependency Name="Microsoft.DotNet.Wpf.ProjectTemplates" Version="5.0.0-alpha1.19462.16" CoherentParentDependency="Microsoft.WindowsDesktop.App">
       <Uri>https://github.com/dotnet/wpf</Uri>
-      <Sha>2e840efbac4cf916fe35d22d279d42ed02915cc6</Sha>
+      <Sha>11a8ba5060577dbddae4303e53583f8d4a82f172</Sha>
     </Dependency>
   </ProductDependencies>
   <ToolsetDependencies>
